@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" prefHeight="370.0" prefWidth="500.0" stylesheets="@../image/background.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.vip.VipChoiceController">
+   <children>
+      <Label layoutX="109.0" layoutY="43.0" text="PARKING" textFill="#323130">
+         <font>
+            <Font name="SansSerif Bold" size="61.0" />
+         </font>
+      </Label>
+      <Button fx:id="UsePrimeButton" layoutX="141.0" layoutY="226.0" mnemonicParsing="false" opacity="0.75" prefHeight="39.0" prefWidth="219.0" style="-fx-background-color: #DAA520;" text="Use prime account">
+         <font>
+            <Font name="SansSerif Regular" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="BuyPrimeButton" layoutX="141.0" layoutY="159.0" mnemonicParsing="false" opacity="0.75" prefHeight="39.0" prefWidth="219.0" style="-fx-background-color: #FFFF00;" text="Buy prime account">
+         <font>
+            <Font name="SansSerif Regular" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

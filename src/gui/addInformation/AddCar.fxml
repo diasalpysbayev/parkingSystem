@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" prefHeight="370.0" prefWidth="500.0" stylesheets="@../image/background.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.addInformation.AddCarController">
+   <children>
+      <Label layoutX="109.0" layoutY="43.0" text="PARKING" textFill="#323130">
+         <font>
+            <Font name="SansSerif Bold" size="61.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NameField" layoutX="42.0" layoutY="143.0" prefHeight="37.0" prefWidth="185.0" promptText="Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="SurnameField" layoutX="270.0" layoutY="143.0" prefHeight="37.0" prefWidth="185.0" promptText="Surname">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PhoneNumberField" layoutX="42.0" layoutY="207.0" prefHeight="37.0" prefWidth="185.0" promptText="Phone number">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="MaleBox" layoutX="162.0" layoutY="271.0" mnemonicParsing="false" text="Male">
+         <font>
+            <Font name="SansSerif Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="FemaleBox" layoutX="259.0" layoutY="271.0" mnemonicParsing="false" text="Female">
+         <font>
+            <Font name="SansSerif Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="RegisterButton" layoutX="200.0" layoutY="319.0" mnemonicParsing="false" opacity="0.75" prefHeight="37.0" prefWidth="101.0" style="-fx-background-color: #DAA520;" text="Register">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="CarIdField" layoutX="270.0" layoutY="207.0" prefHeight="37.0" prefWidth="185.0" promptText="Car id">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
